@@ -1,0 +1,25 @@
+{
+  "kind": "column",
+  "name": "Language Translator",
+  "description": "Translates input text from one language to another using LibreTranslate API.",
+  "params": [
+    {
+      "name": "inputText",
+      "displayName": "Input Text",
+      "type": "string"
+    },
+    {
+      "name": "sourceLang",
+      "displayName": "Source Language",
+      "type": "string"
+    },
+    {
+      "name": "targetLang",
+      "displayName": "Target Language",
+      "type": "string"
+    }
+  ],
+  "result": {
+    "type": "string"
+  }
+}
